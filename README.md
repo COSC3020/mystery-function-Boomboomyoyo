@@ -12,3 +12,11 @@ function mystery(a) {
     else return a[0];
 }
 ```
+//examp = [1];
+
+//console.log(mystery(examp));
+
+/*
+This mystery function will take an array as input and will use recursion to process the array, to find the greatest value element within it. The recursion will reduce the size of the array from the front to the end, until it has an array only containing the last element. It will then compare the last sub-array's first element to the last element, passing whichever is greater up the stack. It will continue to do this until it has compared all elements in the array, at which point it will return the greatest value that was present within the array.
+
+*/
